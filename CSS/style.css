@@ -443,11 +443,11 @@ nav ul a:hover {
 .error-page p {
   font-size: 1.2rem;
   margin-bottom: 30px;
-  color: #555;
+  color: var(--color-text);
 }
 
 .error-page .btn {
-  background-color: #3498DB;
+  background-color: var(--color-secondary);
   color: white;
   padding: 10px 20px;
   text-decoration: none;
