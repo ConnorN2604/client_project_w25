@@ -310,7 +310,7 @@ select {
 /* Desktop Styles */
 @media (min-width: 768px) {
   body {
-      margin-top:
+      margin-top;
       display: flex;
       flex-direction: column;
       align-items: center;
