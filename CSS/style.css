@@ -286,7 +286,7 @@ select {
   background: none;
   border: none; 
   padding: 0; 
-  outline: none; /
+  outline: none;
 }
 .read-more:focus {
   outline: none; 
@@ -310,7 +310,7 @@ select {
 /* Desktop Styles */
 @media (min-width: 768px) {
   body {
-      margin-top: 1.25rem;
+      margin-top:
       display: flex;
       flex-direction: column;
       align-items: center;
