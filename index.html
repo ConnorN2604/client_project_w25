@@ -10,13 +10,12 @@
 
     <header>
         <a href = "#main" class="skip-link">Skip to Main Content</a>
-        <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
         <nav>
             <h1>Student Success Portal</h1>
             <ul>
                 <li class="active"><a href = "index.html">Home</a></li>
                 <li><a href = "BSIAdvising.html">BSI Advising</a></li>
-                <li><a href = "BSIResources.html">BSI Advising Resources</a></li>
+                <li><a href = "BSIResources.html">BSI Resources</a></li>
                 <li><a href = "Tutoring.html">UMSI Tutoring</a></li>
             </ul>
         </nav>
@@ -25,7 +24,7 @@
     </header>
     <main id ="main">
         <section>
-            <h2>Welcome to the UM Grad Success Navigator</h2>
+            <h2>Welcome to the UM Success Navigator</h2>
             <p> Your Comprehensive Guide to Resources for Graduate School Success</p>
             <p>This guide is set up to help you be successul inside and outside of the classroom and we have included the following resources throughout our site:</p>
             <ol>
@@ -99,6 +98,10 @@
     </main>
     <footer>
         <p><a href="https://sites.google.com/umich.edu/bsiacademicadvising/home">BSI Academic Advising </a>| <a href="https://sites.google.com/umich.edu/msiacademicadvising/student-support-resources">MSI Academic Advising </a></p>
+        <p>&copy; <span id="year"></span> Regents of the University of Michigan</p>
     </footer>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
